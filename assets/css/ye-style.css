@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Yung Jakes New Handwriting';
+    src: url('subset-YungJakesNewHandwriting-Rg.woff2') format('woff2'),
+        url('subset-YungJakesNewHandwriting-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+  color: white;
+  background-color: #526b8a;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+/* a:hover {
+    color:black;
+} */
+
+.lead {
+  font-size: 1.70em;
+}
+.main-guy{
+  font-family: 'Yung Jakes New Handwriting';
+  color: rgb(41, 242, 78);
+  font-size: 3.5em;
+}
+
+#sub {
+  font-size: 0.85em;
+}
+#subsub {
+  font-size: 0.8em;
+}
